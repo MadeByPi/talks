@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="LauncherPowerStrip"	x="588"	y="97"	width="60"	height="240" frameX="-0" frameY="-0" frameWidth="60" frameHeight="240"/>
+	<SubTexture name="ball-glow"	x="168"	y="983"	width="30"	height="30" frameX="-0" frameY="-0" frameWidth="30" frameHeight="30"/>
+	<SubTexture name="circle"	x="588"	y="437"	width="39"	height="39" frameX="-0" frameY="-0" frameWidth="39" frameHeight="39"/>
+	<SubTexture name="flipper-left"	x="84"	y="983"	width="81"	height="23" frameX="-0" frameY="-0" frameWidth="81" frameHeight="23"/>
+	<SubTexture name="flipper-right"	x="0"	y="983"	width="81"	height="23" frameX="-0" frameY="-0" frameWidth="81" frameHeight="23"/>
+	<SubTexture name="round-bumper"	x="588"	y="479"	width="17"	height="47" frameX="-0" frameY="-0" frameWidth="17" frameHeight="47"/>
+	<SubTexture name="table-static"	x="0"	y="0"	width="585"	height="980" frameX="-0" frameY="-0" frameWidth="585" frameHeight="980"/>
+	<SubTexture name="triangle-left"	x="588"	y="0"	width="60"	height="94" frameX="-0" frameY="-0" frameWidth="60" frameHeight="94"/>
+	<SubTexture name="triangle-right"	x="588"	y="340"	width="60"	height="94" frameX="-0" frameY="-0" frameWidth="60" frameHeight="94"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="oblongo.png">
+	<SubTexture name="BackgroundPattern1" x="1" y="751" width="188" height="178"/>
+	<SubTexture name="BackgroundPattern2" x="1" y="548" width="200" height="200"/>
+	<SubTexture name="BackgroundPattern3" x="481" y="1" width="200" height="200"/>
+	<SubTexture name="Circle" x="458" y="658" width="128" height="128"/>
+	<SubTexture name="Cloud" x="1" y="313" width="382" height="232"/>
+	<SubTexture name="CloudBack" x="1" y="1" width="477" height="309"/>
+	<SubTexture name="DangleBar" x="481" y="204" width="320" height="97"/>
+	<SubTexture name="HexStar" x="571" y="793" width="112" height="128"/>
+	<SubTexture name="Hexagon" x="456" y="789" width="112" height="128"/>
+	<SubTexture name="MadeByPiLogo_B" x="531" y="304" width="138" height="174"/>
+	<SubTexture name="MadeByPiLogo_M" x="684" y="1" width="162" height="174"/>
+	<SubTexture name="MadeByPiLogo_P" x="531" y="481" width="130" height="174"/>
+	<SubTexture name="MadeByPiLogo_a" x="335" y="779" width="118" height="130"/>
+	<SubTexture name="MadeByPiLogo_d" x="335" y="598" width="120" height="178"/>
+	<SubTexture name="MadeByPiLogo_e" x="589" y="658" width="124" height="132"/>
+	<SubTexture name="MadeByPiLogo_i" x="672" y="304" width="30" height="172"/>
+	<SubTexture name="MadeByPiLogo_y" x="664" y="481" width="114" height="166"/>
+	<SubTexture name="Note" x="458" y="598" width="42" height="49"/>
+	<SubTexture name="OblongoArm" x="850" y="297" width="6" height="345"/>
+	<SubTexture name="OblongoBodyBlack" x="204" y="548" width="128" height="272"/>
+	<SubTexture name="OblongoBodyStripes" x="386" y="313" width="142" height="282"/>
+	<SubTexture name="OblongoEyeLid" x="335" y="548" width="32" height="32"/>
+	<SubTexture name="OblongoEyePupil" x="503" y="625" width="10" height="10"/>
+	<SubTexture name="OblongoEyeWhite" x="503" y="598" width="24" height="24"/>
+	<SubTexture name="OblongoFingers" x="335" y="583" width="47" height="8"/>
+	<SubTexture name="OblongoLegLeft" x="816" y="572" width="31" height="242"/>
+	<SubTexture name="OblongoLegRight" x="816" y="297" width="31" height="272"/>
+	<SubTexture name="PentStar" x="849" y="1" width="122" height="116"/>
+	<SubTexture name="PentaRounded" x="192" y="823" width="122" height="124"/>
+	<SubTexture name="Pentagon" x="804" y="178" width="122" height="116"/>
+	<SubTexture name="TriCurve1" x="686" y="819" width="112" height="112"/>
+	<SubTexture name="TriCurve2" x="317" y="912" width="112" height="96"/>
+	<SubTexture name="TriCurve3" x="801" y="819" width="112" height="112"/>
+	<SubTexture name="WaterStrip" x="781" y="304" width="32" height="512"/>
+</TextureAtlas>

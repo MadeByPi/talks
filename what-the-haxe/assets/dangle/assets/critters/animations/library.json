@@ -1,0 +1,1209 @@
+{
+    "md5": "e2e0caab67fd45edd24253b3f11d8282",
+    "movies": [
+        {
+            "id": "GhostAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                0.5,
+                                -15.5
+                            ],
+                            "pivot": [
+                                137.5,
+                                130.5
+                            ],
+                            "duration": 80,
+                            "index": 0,
+                            "ref": "GhostBody",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "body"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -122.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 2,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                -122.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 78,
+                            "index": 2,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "TENTACLE 1"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -87.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                -87.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 76,
+                            "index": 4,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "TENTACLE 2"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -52.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 6,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                -52.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 74,
+                            "index": 6,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "TENTACLE 3"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -17.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 8,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                -17.05,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 72,
+                            "index": 8,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "TENTACLE 4"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                17.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 10,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                17.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 70,
+                            "index": 10,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "Layer 5"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                51.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 12,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                51.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 68,
+                            "index": 12,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "Layer 6"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                86.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 14,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                86.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 66,
+                            "index": 14,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "Layer 7"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                121.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 16,
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                121.95,
+                                66.45
+                            ],
+                            "pivot": [
+                                -0.05,
+                                79.45
+                            ],
+                            "duration": 64,
+                            "index": 16,
+                            "ref": "~GHOST/mc-ghost-tentacle-animation",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "Layer 8"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 80,
+                            "loc": [
+                                -54,
+                                40.85
+                            ],
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "scale": [
+                                0.5,
+                                0.5
+                            ],
+                            "index": 0,
+                            "ref": "HexmanEyeAnim",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "rightEye"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 80,
+                            "loc": [
+                                -97,
+                                40.85
+                            ],
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "scale": [
+                                0.5,
+                                0.5
+                            ],
+                            "index": 0,
+                            "ref": "HexmanEyeAnim",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "leftEye"
+                }
+            ]
+        },
+        {
+            "id": "HexmanAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "HexmanLeg",
+                            "loc": [
+                                -9.6,
+                                -83.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ]
+                        },
+                        {
+                            "duration": 3,
+                            "index": 4,
+                            "ref": "HexmanLeg",
+                            "loc": [
+                                -9.6,
+                                -63.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ]
+                        },
+                        {
+                            "loc": [
+                                -9.6,
+                                -63.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ],
+                            "duration": 1,
+                            "index": 7,
+                            "ref": "HexmanLeg",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "legs left"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -63.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ],
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "HexmanLeg"
+                        },
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -83.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ],
+                            "duration": 3,
+                            "index": 4,
+                            "ref": "HexmanLeg"
+                        },
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -83.1
+                            ],
+                            "pivot": [
+                                25.3,
+                                0
+                            ],
+                            "duration": 1,
+                            "index": 7,
+                            "ref": "HexmanLeg",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "leg right"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "HexmanHead",
+                            "loc": [
+                                0,
+                                -136.35
+                            ],
+                            "pivot": [
+                                113.5,
+                                99
+                            ]
+                        },
+                        {
+                            "duration": 3,
+                            "index": 4,
+                            "ref": "HexmanHead",
+                            "loc": [
+                                0,
+                                -131.35
+                            ],
+                            "pivot": [
+                                113.5,
+                                99
+                            ]
+                        },
+                        {
+                            "duration": 1,
+                            "index": 7,
+                            "ref": "HexmanHead",
+                            "loc": [
+                                0,
+                                -136.35
+                            ],
+                            "pivot": [
+                                113.5,
+                                99
+                            ]
+                        }
+                    ],
+                    "name": "heed"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 8,
+                            "index": 0,
+                            "ref": "HexmanEyeAnim",
+                            "loc": [
+                                40,
+                                -146.1
+                            ],
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye right"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 8,
+                            "index": 0,
+                            "ref": "HexmanEyeAnim",
+                            "loc": [
+                                -40,
+                                -146.1
+                            ],
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye left"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 8,
+                            "index": 0,
+                            "ref": "HexmanMouthAnim",
+                            "loc": [
+                                0,
+                                -88.85
+                            ],
+                            "tweened": false
+                        }
+                    ],
+                    "name": "mouth"
+                }
+            ]
+        },
+        {
+            "id": "HexmanEyeAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "duration": 60,
+                            "index": 0,
+                            "ref": "HexmanEyeWhite",
+                            "pivot": [
+                                16.2,
+                                16.2
+                            ],
+                            "tweened": false
+                        },
+                        {
+                            "duration": 2,
+                            "index": 60,
+                            "ref": "HexmanEyeWhite",
+                            "pivot": [
+                                16.2,
+                                16.2
+                            ]
+                        },
+                        {
+                            "duration": 2,
+                            "scale": [
+                                0.0154,
+                                0.0154
+                            ],
+                            "index": 62,
+                            "ref": "HexmanEyeWhite",
+                            "pivot": [
+                                16.2,
+                                16.2
+                            ]
+                        },
+                        {
+                            "duration": 32,
+                            "index": 64,
+                            "ref": "HexmanEyeWhite",
+                            "pivot": [
+                                16.2,
+                                16.2
+                            ],
+                            "tweened": false
+                        }
+                    ],
+                    "name": "the whites of his eyes"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -5,
+                                -5
+                            ],
+                            "pivot": [
+                                8.1,
+                                8.1
+                            ],
+                            "duration": 19,
+                            "index": 0,
+                            "ref": "HexmanEyeInner",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                5,
+                                -5
+                            ],
+                            "pivot": [
+                                8.1,
+                                8.1
+                            ],
+                            "duration": 40,
+                            "index": 19,
+                            "ref": "HexmanEyeInner",
+                            "tweened": false
+                        },
+                        {
+                            "loc": [
+                                -5,
+                                -5
+                            ],
+                            "pivot": [
+                                8.1,
+                                8.1
+                            ],
+                            "duration": 1,
+                            "index": 59,
+                            "ref": "HexmanEyeInner",
+                            "tweened": false
+                        },
+                        {
+                            "index": 60,
+                            "duration": 4
+                        },
+                        {
+                            "loc": [
+                                -5,
+                                -5
+                            ],
+                            "pivot": [
+                                8.1,
+                                8.1
+                            ],
+                            "duration": 32,
+                            "index": 64,
+                            "ref": "HexmanEyeInner",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye inner"
+                }
+            ]
+        },
+        {
+            "id": "HexmanMouthAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "HexmanMouth",
+                            "pivot": [
+                                23,
+                                11.5
+                            ]
+                        },
+                        {
+                            "duration": 5,
+                            "scale": [
+                                1.2,
+                                1.2
+                            ],
+                            "index": 4,
+                            "ref": "HexmanMouth",
+                            "pivot": [
+                                23,
+                                11.5
+                            ]
+                        },
+                        {
+                            "duration": 1,
+                            "index": 9,
+                            "ref": "HexmanMouth",
+                            "pivot": [
+                                23,
+                                11.5
+                            ]
+                        }
+                    ],
+                    "name": "Layer 1"
+                }
+            ]
+        },
+        {
+            "id": "TriangulonAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "TriangulonHead",
+                            "loc": [
+                                0,
+                                -0.05
+                            ],
+                            "pivot": [
+                                101.3,
+                                176.9
+                            ]
+                        },
+                        {
+                            "loc": [
+                                0,
+                                -0.054
+                            ],
+                            "pivot": [
+                                101.3,
+                                176.9
+                            ],
+                            "duration": 5,
+                            "scale": [
+                                1.08,
+                                1.08
+                            ],
+                            "index": 4,
+                            "ref": "TriangulonHead"
+                        },
+                        {
+                            "duration": 1,
+                            "index": 9,
+                            "ref": "TriangulonHead",
+                            "loc": [
+                                0,
+                                -0.05
+                            ],
+                            "pivot": [
+                                101.3,
+                                176.9
+                            ]
+                        }
+                    ],
+                    "name": "head"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -35.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ],
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "TriangulonLeg"
+                        },
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -105.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ],
+                            "duration": 5,
+                            "index": 4,
+                            "ref": "TriangulonLeg"
+                        },
+                        {
+                            "skew": [
+                                0,
+                                3.1416
+                            ],
+                            "loc": [
+                                10.4,
+                                -35.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ],
+                            "duration": 1,
+                            "index": 9,
+                            "ref": "TriangulonLeg"
+                        }
+                    ],
+                    "name": "rleg"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 4,
+                            "index": 0,
+                            "ref": "TriangulonLeg",
+                            "loc": [
+                                -9.6,
+                                -85.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ]
+                        },
+                        {
+                            "duration": 5,
+                            "index": 4,
+                            "ref": "TriangulonLeg",
+                            "loc": [
+                                -9.6,
+                                -35.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ]
+                        },
+                        {
+                            "duration": 1,
+                            "index": 9,
+                            "ref": "TriangulonLeg",
+                            "loc": [
+                                -9.6,
+                                -35.1
+                            ],
+                            "pivot": [
+                                26.15,
+                                0
+                            ]
+                        }
+                    ],
+                    "name": "lleg"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -0.05,
+                                -15.7
+                            ],
+                            "pivot": [
+                                -0.05,
+                                -0.05
+                            ],
+                            "duration": 10,
+                            "index": 0,
+                            "ref": "TriangulonEyeAnim",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye"
+                }
+            ]
+        },
+        {
+            "id": "TriangulonEyeAnim",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -0.05,
+                                -0.05
+                            ],
+                            "pivot": [
+                                31.3,
+                                31.3
+                            ],
+                            "duration": 59,
+                            "index": 0,
+                            "ref": "TriangulonEyeWhite",
+                            "tweened": false
+                        },
+                        {
+                            "ease": -1,
+                            "loc": [
+                                -0.05,
+                                -0.05
+                            ],
+                            "pivot": [
+                                31.3,
+                                31.3
+                            ],
+                            "duration": 9,
+                            "index": 59,
+                            "ref": "TriangulonEyeWhite"
+                        },
+                        {
+                            "ease": 1,
+                            "loc": [
+                                0.1607,
+                                0.1607
+                            ],
+                            "pivot": [
+                                31.4,
+                                31.4
+                            ],
+                            "duration": 6,
+                            "scale": [
+                                2.2141,
+                                2.2141
+                            ],
+                            "index": 68,
+                            "ref": "TriangulonEyeWhite"
+                        },
+                        {
+                            "loc": [
+                                -0.05,
+                                -0.05
+                            ],
+                            "pivot": [
+                                31.3,
+                                31.3
+                            ],
+                            "duration": 37,
+                            "index": 74,
+                            "ref": "TriangulonEyeWhite",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye white"
+                },
+                {
+                    "keyframes": [
+                        {
+                            "duration": 111,
+                            "index": 0,
+                            "ref": "TriangulonEyeInner",
+                            "pivot": [
+                                12,
+                                12
+                            ],
+                            "tweened": false
+                        }
+                    ],
+                    "name": "eye inner"
+                }
+            ]
+        },
+        {
+            "id": "~GHOST/mc-ghost-tentacle-animation",
+            "layers": [
+                {
+                    "keyframes": [
+                        {
+                            "loc": [
+                                -0.0499,
+                                79.4997
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 31,
+                            "scale": [
+                                0.9983,
+                                1.0006
+                            ],
+                            "index": 0,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        },
+                        {
+                            "ease": -1,
+                            "loc": [
+                                -0.05,
+                                79.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 11,
+                            "index": 31,
+                            "ref": "GhostTentacle"
+                        },
+                        {
+                            "ease": 1,
+                            "loc": [
+                                -0.05,
+                                149.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 8,
+                            "index": 42,
+                            "ref": "GhostTentacle"
+                        },
+                        {
+                            "ease": -1,
+                            "loc": [
+                                -0.05,
+                                79.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 4,
+                            "index": 50,
+                            "ref": "GhostTentacle"
+                        },
+                        {
+                            "ease": 1,
+                            "loc": [
+                                -0.05,
+                                69.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 6,
+                            "index": 54,
+                            "ref": "GhostTentacle"
+                        },
+                        {
+                            "loc": [
+                                -0.05,
+                                79.45
+                            ],
+                            "pivot": [
+                                15,
+                                79.45
+                            ],
+                            "duration": 1,
+                            "index": 60,
+                            "ref": "GhostTentacle",
+                            "tweened": false
+                        }
+                    ],
+                    "name": "TENTACLE"
+                }
+            ]
+        }
+    ],
+    "textureGroups": [
+        {
+            "scaleFactor": 1,
+            "atlases": [
+                {
+                    "file": "atlas0.png",
+                    "textures": [
+                        {
+                            "rect": [
+                                1,
+                                1,
+                                274,
+                                261
+                            ],
+                            "symbol": "GhostBody",
+                            "origin": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "rect": [
+                                277,
+                                1,
+                                227,
+                                198
+                            ],
+                            "symbol": "HexmanHead",
+                            "origin": [
+                                113.5,
+                                99
+                            ]
+                        },
+                        {
+                            "rect": [
+                                277,
+                                201,
+                                202,
+                                176
+                            ],
+                            "symbol": "TriangulonHead",
+                            "origin": [
+                                101.3,
+                                176.95
+                            ]
+                        },
+                        {
+                            "rect": [
+                                481,
+                                201,
+                                25,
+                                298
+                            ],
+                            "symbol": "HexmanLeg",
+                            "origin": [
+                                25.3,
+                                0
+                            ]
+                        },
+                        {
+                            "rect": [
+                                1,
+                                264,
+                                30,
+                                158
+                            ],
+                            "symbol": "GhostTentacle",
+                            "origin": [
+                                15.05,
+                                0
+                            ]
+                        },
+                        {
+                            "rect": [
+                                33,
+                                264,
+                                62,
+                                31
+                            ],
+                            "symbol": "TriangulonEyeWhite",
+                            "origin": [
+                                31.35,
+                                31.35
+                            ]
+                        },
+                        {
+                            "rect": [
+                                97,
+                                264,
+                                46,
+                                23
+                            ],
+                            "symbol": "HexmanMouth",
+                            "origin": [
+                                23,
+                                11.5
+                            ]
+                        },
+                        {
+                            "rect": [
+                                145,
+                                264,
+                                32,
+                                32
+                            ],
+                            "symbol": "HexmanEyeWhite",
+                            "origin": [
+                                16.2,
+                                16.2
+                            ]
+                        },
+                        {
+                            "rect": [
+                                179,
+                                264,
+                                24,
+                                12
+                            ],
+                            "symbol": "TriangulonEyeInner",
+                            "origin": [
+                                12,
+                                12
+                            ]
+                        },
+                        {
+                            "rect": [
+                                205,
+                                264,
+                                16,
+                                16
+                            ],
+                            "symbol": "HexmanEyeInner",
+                            "origin": [
+                                8.15,
+                                8.15
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "file": "atlas1.png",
+                    "textures": [
+                        {
+                            "rect": [
+                                1,
+                                1,
+                                25,
+                                298
+                            ],
+                            "symbol": "TriangulonLeg",
+                            "origin": [
+                                26.15,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "frameRate": 30
+}

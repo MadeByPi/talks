@@ -1,0 +1,1 @@
+nekotools server -p 2001 -h 0.0.0.0

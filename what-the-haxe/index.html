@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>What the Haxe? | MadeByPi</title>
+		
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../reveal.js-2.6.2/css/reveal.min.css">
+		<link rel="stylesheet" href="../reveal.js-2.6.2/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../reveal.js-2.6.2/lib/css/zenburn.css">
+		
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = '../reveal.js-2.6.2/css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<!--[if lt IE 9]>
+		<script src="../reveal.js-2.6.2/lib/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		
+		<style> /* tweaklets */
+			.ninety-degrees {
+				transform: rotateZ(90deg);
+				-moz-transform: rotateZ(90deg);
+				-webkit-transform: rotateZ(90deg);
+			}
+			
+			.reveal .slides section .fragment.collapsed {
+				display : none;
+			}
+			
+			.reveal .slides section .fragment.collapsed.visible {
+				display : inline-block;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<section>
+						<h1>What the Haxe?</h1>
+						<br/>	
+						
+						<p><small><a href="http://twitter.com/mikedotalmond">@mikedotalmond</a></small></p>
+						
+						<p><small><a href="https://github.com/madebypi/talks/html/what-the-haxe">Source</a></small></p>
+						
+						<br/><br/>
+						<p><a href="../" title="back-up">&#160;&#160;../&#160;&#160;</a></p>
+					</section>
+						
+					<section>
+						<h2>Disclaimer</h2>
+						<img class="" src="../common/img/a-few-words.jpg" />
+					</section>
+				
+				</section>
+				
+				<section>
+					<h2><a href="http://haxe.org/">Haxe</a></h2><hr/>
+					<p cite="http://haxe.org/">
+						&ldquo;... is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, and a complete cross-platform standard library with ways to access each platform's native capabilities.&rdquo;
+					</p>
+				</section>
+				
+				<section>
+					<section>
+						<h2>What?</h2><hr/>
+						<p>Language, compiler, more...</p>
+					</section>
+					
+					<section>
+						<h2>The Haxe Programming Language</h2><br/>
+						<ul>
+							<li class="fragment">A high level strictly typed programming language, used by the Haxe compiler to produce cross-platform native code.</li>
+							<li class="fragment">Easy to learn if you are familiar already with Java, C++, C#, PHP, AS3 or similar OO languages. </li>
+							<li class="fragment">Designed to adapt the various platforms native behaviors and allow efficient cross-platform development. </li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>The Haxe Compiler</h2><br/>
+						<ul>
+							<li class="fragment">Responsible for translating the Haxe programming language to the target platform native source code or binary</li>
+							<li class="fragment">Each platform is natively supported, without any overhead coming from running inside a virtual machine.</li>
+							<li class="fragment">Very efficient and can compile thousands of classes in seconds.</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>And...</h2>
+					</section>
+					
+					<section>
+						<h2>The Haxe standard library</h2><br/>
+						<ul>
+							<li class="fragment">A common set of highly tested APIs that gives you complete cross-platform behavior</li>
+							<li class="fragment">Includes data structures, maths and date, serialization, reflection, bytes, crypto, file system, database access, etc</li>
+							<li class="fragment">Also includes platform-specific API that gives you access to important parts of the platform capabilities, and can be easily extended</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>And...</h2>
+					</section>
+					
+					<section>
+						<h2>Tools</h2><br/>
+						<ul>
+							<li class="fragment">Comes with additional tools and features that can be used to develop and distribute cross-platform applications.</li>
+							<li class="fragment">Like: Macros, IDE integration, haxelib, nekotools, ...</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>And...</h2>
+					</section>
+					
+					<section>
+						<h2>Frameworks</h2><br/>
+						<p class="fragment">Several frameworks have been built with Haxe and can be used to develop cross-platform applications, depending on your target usage.</p>
+						<br/><p class="fragment">Examples later...</p>
+					</section>
+					
+				</section>
+				
+				
+				<section>
+					<section>
+						<h2>Why?</h2><hr/>
+						<p>It will make your life easier!</p>
+					</section>
+					<section>
+						
+						<aside class="notes">
+							Lots of other nice language features too....
+							Abstracts, Generics, enums (ADTs), Pattern Matching, typedef, anon structures, inlines (var,constructor,fn,...), constant folding, externs
+							https://en.wikipedia.org/wiki/Haxe
+						</aside>
+						
+						<ul>
+							<li class="fragment">Code that is clean, and easy-to-maintain</li>
+							<li class="fragment">Statically typed, type-inference, faster, safer, coding.</li>
+							<li class="fragment">Compiled language == complier errors for sully mistooks</li>
+							<li class="fragment">Less boilerplate == more fun times</li>
+							<li class="fragment">Fast compiler (cache, service)</li>
+							<li class="fragment">Continuous Integration, Unit tests, Code Coverage</li>
+							<li class="fragment">Cross-platform</li>
+							<li class="fragment">Community</li>
+						</ul>
+					</section>
+				</section>
+				
+				
+				<section>
+					<section>
+						<h2><a href="http://try.haxe.org/">try</a></h2><hr/>
+						<p>A browser based IDE for testing Haxe code</p>
+					</section>
+					<section>
+						<!-- Some examples based on stuff in the haxe docs and https://github.com/HaxeFoundation/haxe.org/issues/32 -->
+						<ul class="">
+							<li>Array Comprehension - <a href="http://haxe.org/manual/lf-array-comprehension.html">docs</a>, <a href="http://try.haxe.org/#F3669">try</a>, <a href="http://try.haxe.org/#07c6C">try</a></li>
+							
+							<li>Access Control - <a href="http://haxe.org/manual/lf-access-control.html">docs</a>, <a href="http://try.haxe.org/#29b6B">try</a>, <a href="http://try.haxe.org/#E38AC">try</a></li>
+
+							<li>Conditional Compilation - <a href="http://haxe.org/manual/lf-condition-compilation.html">docs</a>, <a href="http://try.haxe.org/#799C8">try</a></li>
+							
+							<li>Iterators - <a href="http://haxe.org/manual/lf-iterators.html">docs</a>, <a href="http://try.haxe.org/#6325A">try</a></li>
+							
+							<li>Metadata - <a href="http://haxe.org/manual/lf-metadata.html">docs</a>, <a href="http://try.haxe.org/#ea1BA">try</a></li>
+							
+							<li>Function binding - <a href="http://haxe.org/manual/lf-function-bindings.html">docs</a>, <a href="http://try.haxe.org/#f6356">try</a></li>
+							
+							<li>Static extensions - <a href="http://haxe.org/manual/lf-static-extension.html">docs</a>, <a href="http://try.haxe.org/#16C05">try</a></li>
+							
+							<li>String interpolation - <a href="http://haxe.org/manual/lf-string-interpolation.html">docs</a>, <a href="http://try.haxe.org/#eC9f5">try</a></li>
+							
+							<li>Pattern matching - <a href="http://haxe.org/manual/lf-pattern-matching-introduction.html">docs</a>, <a href="http://try.haxe.org/#11a8b">try</a></li>
+							<!-- 
+								There are many pattern matching examples...						
+								http://haxe.org/manual/lf-pattern-matching-enums.html
+								http://try.haxe.org/#24f30
+								
+								http://haxe.org/manual/lf-pattern-matching-variable-capture.html
+								http://try.haxe.org/#6B032
+								
+								http://haxe.org/manual/lf-pattern-matching-structure.html
+								http://try.haxe.org/#Ef4c9
+								
+								http://haxe.org/manual/lf-pattern-matching-array.html
+								http://try.haxe.org/#8cade
+
+								http://haxe.org/manual/lf-pattern-matching-or.html
+								http://try.haxe.org/#67EE4
+
+								http://haxe.org/manual/lf-pattern-matching-guards.html
+								http://try.haxe.org/#4b54F
+
+								http://haxe.org/manual/lf-pattern-matching-tuples.html
+								http://try.haxe.org/#d6571
+
+								http://haxe.org/manual/lf-pattern-matching-extractors.html
+								http://try.haxe.org/#D6A2f
+								http://try.haxe.org/#903DA
+
+								http://haxe.org/manual/lf-pattern-matching-introduction.html
+								http://try.haxe.org/#11a8b
+							-->
+						</ul>
+					</section>	
+				</section>	
+				
+				<section>
+					
+					<section>
+						<h2>Examples</h2><hr/>
+						<p>Who uses it, and what for?</p>
+					</section>
+					
+					<section>
+						<h2>Some <a href="http://haxe.org/use-cases/who-uses-haxe.html">big companies</a></h2>
+						<p class="fragment" style="font-size:1.8rem;">
+							TiVo, Prezi, Nickelodeon, Disney, BBC, Mattel<br/>
+							Coca-Cola, Hasbro, Toyota, Massive Interactive, Stencyl, ...
+						</p>
+						
+						<br/>
+						<h2>Smaller groups, Indies,<br/>Experimenters, and creative coders...</h2>
+						<p class="fragment" style="font-size:1.8rem;">
+							<a href="http://dukope.com/">Lucas Pope</a> (<a href="http://papersplea.se/">Papers Please</a>),   
+							<a href="http://grapefrukt.com/">Grapefrukt</a> (<a href="http://rymdkapsel.com/">Rymdkapsel</a>),
+							<a href="https://github.com/haxiomic/GPU-Fluid-Experiments">GPU-Fluid Experiments</a>,
+							<a href="http://shirogames.com/">ShiroGames</a>,
+							<a href="http://motion-twin.com/">Motion-Twin</a>, 
+							<a href="http://teamcooper.co.uk">Team Cooper</a>, ...
+						</p>
+					
+					</section>
+					
+					<section>
+						<h2>MadeByPi?</h2>
+						<br/>
+						<ul>
+							<li class="fragment">JS and Flash front-end web stuff</li>
+							<li class="fragment">Command-line tools / utilities</li>
+							<li class="fragment">Used (by me) on client work for Disney, CBBC, first direct, Transform, ... more.</li>
+							<li class="fragment">
+								<a href="./assets/dangle/" target="_blank">Internal projects</a> / 
+								<a href="./assets/balls/" target="_blank">Prototypes</a> / 
+								<a href="./assets/liono/" target="_blank">R&amp;D</a>
+							</li>
+							<li class="fragment">Other stuff? 
+								<a href="https://github.com/MadeByPi">GitHub</a> / 
+								<a href="https://gist.github.com/MadeByPi">Gists</a>
+							</li>							
+						</ul>
+					</section>
+					
+					<section data-background="./assets/poly-bg.jpg">
+						<h2><a href="https://twitter.com/mikedotalmond">Et Moi</a>?</h2>						
+						<img src="../common/img/mikedotalmond.png"></img></a>
+						<br/>
+						<ul>
+							<li class="fragment"><a href="https://bitbucket.org/mikedotalmond/polygonr" target="_blank">Polygonr</a></li>
+							<li class="fragment"><a href="https://mikedotalmond.github.io/web-audio/" target="_blank">M o n o s y n t h</a></li>
+							<!--li class="fragment"><a href="http://chromata.mikedotalmond.co.uk/" target="_blank">Chromata</a></li--><!-- no waveform images..? crossdomain xml fail? -->
+							<li class="fragment"><a href="#/5/4">Wallpaper...</a></li>
+						</ul>
+					</section>
+					
+					<section data-background="./assets/poly-bg.jpg">
+						<img src="./assets/wallpaper.jpg"/>
+					</section>
+					
+				</section>
+				
+				<section>
+					<section>
+						<h2>But...</h2><hr/>
+					</section>
+						
+					<section>
+						<h2>&ldquo;I only need to target Javascript,</h2>
+						<h3>so what about...&rdquo;</h3>
+						<br/><ul>
+							<li class="fragment">TypeScript</li>
+							<li class="fragment">CoffeeScript</li>
+							<li class="fragment">Dart</li>
+						</ul>
+					</section>
+					
+					<section data-transition="">
+						<img class="" src="assets/use-haxe.jpg"></img>
+					</section>
+					
+					<section data-transition="">
+						<h2>&ldquo;I need to convert every library I use to Haxe?!&rdquo;</h2>
+						<h3 class="fragment">No.</h3>
+						<br/>
+						<p class="fragment"><small><code>extern class AudioNode { ... }</code></small></p>
+						<ul>
+							<li class="fragment">Type-definitions for external code</li>
+							<li class="fragment">Exist for many popular libraries</li>		
+							<li class="fragment">Easy to write, can be auto-generated</li>						
+						</ul>
+						<!--pre  class="fragment"><code data-trim lang="haxe">
+package js.html.audio;
+
+@:native("AudioNode")
+extern class AudioNode {
+
+    var context(default,null):AudioContext;
+
+    var numberOfInputs(default,null):Int;
+
+    var numberOfOutputs(default,null):Int;
+
+    @:overload(function(destination:AudioNode, ?output:Int, ?input:Int):Void {} )
+    function connect(destination:AudioParam, ?output:Int):Void;
+
+    function disconnect(?output:Int):Void;
+}</code></pre-->					
+					</section>
+					
+					<section data-transition="">
+						<h2>&ldquo;I need some <strong>&#160;J a v a S c r i p t&#160;</strong></h2>
+						<h3>on this project&rdquo;</h3>
+						<br/>
+						<img class="fragment" src="assets/tumblr_n580fngxd41rzh6ewo1_400.jpg"></img>
+					</section>
+					
+					
+					<section>
+						<h2>&ldquo;Haxe doesn't do <em>XYZ</em>,</h2>
+						<h3>and i use xyz <strong>all the time</strong> in my favorite language!&rdquo;</h3>
+						<br/><br/><div class="fragment ninety-degrees">:~{<span class="collapsed fragment">&#160;&#160;</span>}</div>
+					</section>
+					<section data-transition="">						
+						<img src="assets/macros.jpg"></img>
+					</section>
+					
+				</section>
+				
+				<section>
+					<section data-transition="">
+						<h2>Resources</h2><hr/>
+					</section>
+					
+					<section>
+							<h2><a href="http://haxe.org">Haxe</a></h2>	
+							<ul>
+								<li class="fragment">Github - <a href="https://github.com/HaxeFoundation">Haxe Foundation</a>, <a href="https://github.com/ncannasse/">Nicolas Cannasse</a></li>
+								<li class="fragment"><a href="http://haxe.io//">haxe.io</a> - regular round-ups of Haxe related stuff</li>
+								<li class="fragment"><a href="http://try.haxe.org">try.haxe</a></li>
+								<li class="fragment"><a href="http://lib.haxe.org">haxelib</a></li>
+								
+							</ul>
+					</section>		
+					
+					<section>
+							<h2>Frameworks / Tools</h2>	
+							<ul>
+								<li class="fragment">	<a href="https://github.com/aduros/flambe">Flambé</a>,
+										<a href="http://www.openfl.org/">OpenFL</a>, 
+										<a href="http://haxeflixel.com/">HaxeFlixel</a>, 
+										<a href="http://haxor.thelaborat.org/">Haxor</a>, ...
+								</li>
+								<li class="fragment">
+										<a href="https://github.com/massiveinteractive/">Massive </a>(munit, mcover, etc), 
+										<a href="https://github.com/ufront">Ufront</a>, ...
+								</li>
+								
+								
+								<li class="fragment">Lots more on <a href="https://github.com/search?l=Haxe&q=Haxe&type=Repositories">github</a>, <a href="https://bitbucket.org/repo/all?name=haxe">bitbucket</a>, <a href="https://code.google.com/hosting/search?q=haxe&btn=Search+projects">google code</a></li>
+							</ul>
+					</section>		
+					
+					<section>	
+							<h2>Read</h2>
+							<ul>
+								<li class="fragment">Nicolas Cannasse - <a href="http://ncannasse.github.io/hxslides/www/techtalk.html">Tech Talk, Berlin</a></li>
+								<li class="fragment">Prezi - <a href="https://medium.com/prezi-engineering/how-and-why-prezi-turned-to-javascript-56e0ca57d135">How and why Prezi turned to JavaScript</a></li>
+								<li class="fragment">Tivo - <a href="assets/TiVo-WWX2014.pdf">WWX 2014 Slides</a>, <a href="http://www.slashgear.com/tivo-on-xbox-one-and-fire-tv-possible-after-adobe-ousted-11337096/">Slashgear article</a></li>
+								<li class="fragment"><a href="http://haxememes.tumblr.com/">Memes!</a></li>
+							</ul>
+					</section>
+				</section>
+				
+				<section>
+					<h2>Thanks</h2>
+					<a href="https://twitter.com/mikedotalmond"><img src="../common/img/mikedotalmond.png"></img></a><br/>
+					<p><small class="fragment">That's it. <span class="fragment">Go away.</span></small></p>
+				</section>
+				
+			</div>
+		</div>
+		
+		<script src="../reveal.js-2.6.2/lib/js/head.min.js"></script>
+		<script src="../reveal.js-2.6.2/js/reveal.min.js"></script>
+		
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+				
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../reveal.js-2.6.2/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal.js-2.6.2/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js-2.6.2/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js-2.6.2/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal.js-2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../reveal.js-2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>

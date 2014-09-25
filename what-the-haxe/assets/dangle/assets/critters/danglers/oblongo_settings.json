@@ -1,0 +1,18 @@
+{
+	"OblongoBodyBlack":{
+		"leftEye":[-28, 26.5],
+		"rightEye":[26, 26.5],
+		"browYMin":0,
+		"browYMax":22,
+		"mouth":[0,79],
+		"snoreOrigin":[0,-96]
+	},
+	"OblongoBodyStripes":{
+		"leftEye":[-26.5, 26.5],
+		"rightEye":[27.5, 26.5],
+		"browYMin":0,
+		"browYMax":22,
+		"mouth":[0,79],
+		"snoreOrigin":[0,-96]
+	}
+}
