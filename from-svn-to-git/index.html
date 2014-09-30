@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SVN &#8605; Git</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../reveal.js-2.6.2/css/reveal.min.css">
+		<link rel="stylesheet" href="../reveal.js-2.6.2/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../reveal.js-2.6.2/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = '../reveal.js-2.6.2/css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../reveal.js-2.6.2/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section>
+						<h1>SVN &#8605; Git</h1>
+						<br/>
+						<p><small><a href="http://twitter.com/mikedotalmond">@mikedotalmond</a></small></p>
+						<p><small><a href="https://github.com/madebypi/talks/tree/gh-pages/from-svn-to-git">Source</a></small></p>
+							
+						<br/><br/>
+						<p><a href="../" title="back-up">&#160;&#160;../&#160;&#160;</a></p>
+					</section>
+					
+					<section>
+						<h2>Disclaimer</h2>
+						<img class="" src="../common/img/a-few-words.jpg" />
+					</section>
+				</section>
+					
+				<!--
+				https://about.gitlab.com/2014/09/29/gitlab-flow/
+				
+				http://git-scm.com/doc
+				http://git-scm.com/course/svn.html
+				http://git-scm.com/book/en/Git-and-Other-Systems-Migrating-to-Git
+
+				https://help.github.com/
+				
+				https://www.atlassian.com/git/workflows#!workflow-gitflow
+				http://www.sourcetreeapp.com/
+				
+				http://doc.gitlab.com/ce/
+				-->
+				
+				<section>
+					<section>
+						<h2>Why change?!</h2>
+						<hr/><br/>
+						<img class="" src="./assets/garth-fearchange.jpg" width="258" height="300"/>
+					</section>
+					
+					<section>
+						<h3 class="fragment">(The problem with)</h3>
+						<h2>SVN</h2>
+						<p>A central repository that everyone checks-out, and commits to.</p>
+						<ul>
+							<li>Users tend to commit multiple changes in a single commit</li>
+							<li>Reintegrating branches is painful. Merge conflicts are expected, and usually have to be fixed manually - one by one.</li>
+							<li>Offline? Nope. You can create .patch to store your diff and apply it later - but no logs, so is less than ideal.</li>							
+						</ul>
+					
+					</section>					
+				</section>
+				
+				<section>
+					<h2><code><a href="//rogerdudler.github.io/git-guide/#setup" target="_blank">git init</a></code></h2>					
+					<br/>
+					<p>Who...<p>
+					<ul>
+						<li class="fragment">Had heard of git before today?</li>
+						<li class="fragment">Has used git before?</li>
+						<li class="fragment">Uses git from time to time?</li>
+						<li class="fragment">Uses git most days?</li>
+						<li class="fragment">Wants to <a href="//try.github.io" target="_blank">try</a> git?</li>
+					</ul>
+					<br/>
+				</section>
+				
+				<section>
+						<h2>Git Flow</h2>
+						<iframe src="//player.vimeo.com/video/16018419" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</section>
+				
+				
+				<section>
+					<h2>Thanks</h2>
+					<a href="https://twitter.com/mikedotalmond"><img src="../common/img/mikedotalmond.png"></img></a><br/>
+					<p><small class="fragment">That's it. <span class="fragment">Go away.</span></small></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="../reveal.js-2.6.2/lib/js/head.min.js"></script>
+		<script src="../reveal.js-2.6.2/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+				
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../reveal.js-2.6.2/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal.js-2.6.2/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js-2.6.2/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js-2.6.2/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal.js-2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../reveal.js-2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
